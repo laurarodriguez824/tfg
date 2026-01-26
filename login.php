@@ -37,12 +37,12 @@ if ($_POST) {
     <div class="auth-buttons">
         <?php
         if (isset($_SESSION['usuario'])) {
-            echo "<span>Bienvenido, {$_SESSION['usuario']['nombre']}</span>";
-            echo "<a class='btn' href='carrito.php'>Carrito</a>";
-            echo "<a class='btn' href='logout.php'>Cerrar sesión</a>";
+            echo "<a class='ver-producto' href='usuario.php'>Bienvenido, {$_SESSION['usuario']['nombre']}</a>";
+            echo "<a class='ver-producto' href='carrito.php'>Carrito</a>";
+            echo "<a class='ver-producto' href='logout.php'>Cerrar sesión</a>";
         } else {
-            echo "<a class='btn' href='login.php'>Login</a>";
-            echo "<a class='btn' href='registro.php'>Registro</a>";
+            echo "<a class='ver-producto' href='login.php'>Login</a>";
+            echo "<a class='ver-producto' href='registro.php'>Registro</a>";
         }
         ?>
     </div>

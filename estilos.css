@@ -97,6 +97,20 @@ body {
     border-radius: 5px;
 }
 
+.login-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(165, 208, 201);
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.ver-login:hover {
+    background-color: rgb(114, 159, 151);
+}
+
 .ver-producto:hover {
     background-color: #555;
 }
